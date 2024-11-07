@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celvora Store</title>
+    <link rel="stylesheet" href="{% static 'css/Styles.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Celvora, The Beauty Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div id="cart-counter">Cart: <span id="cart-count">0</span> items</div>
+    </header>
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product">
+            <h3>Murad</h3>
+            <p>Sunscreen</p>
+            <p>Price: $45</p>
+            <p>Stock: 30</p>
+            <button>Add to cart</button>
+        </div>
+
+        <div class="product">
+            <h3>Fresh</h3>
+            <p>Rose Toner</p>
+            <p>Price: $35</p>
+            <p>Stock: 40</p>
+            <button>Add to cart</button>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Celvora. All rights reserved.</p>
+    </footer>
+    <!-- Link to JavaScript file here -->
+    <script src="{% static 'js/script.js' %}"></script>
+</body>
+</html>
+
